@@ -1,9 +1,9 @@
 {
-  "name": "base-node",
-  "version": "0.0.4",
-  "description": "Base Node.JS Development Environment",
-  "repository": "https://github.com/blakelapierre/base-node",
-  "main": "index.js",
+  "name": "es-emitter",
+  "version": "0.0.1",
+  "description": "A small function that produces an emitter",
+  "repository": "https://github.com/blakelapierre/es-emitter",
+  "main": ".dist/index.js",
   "author": "Blake La Pierre",
   "license": "MIT",
   "devDependencies": {
