@@ -1,6 +1,6 @@
 {
   "name": "es-emitter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A small function that produces an emitter",
   "repository": "https://github.com/blakelapierre/es-emitter",
   "main": ".dist/index.js",
