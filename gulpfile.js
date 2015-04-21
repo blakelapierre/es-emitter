@@ -4,6 +4,7 @@ const browserify = require('browserify'),
       source = require('vinyl-source-stream');
 
 const {
+  babel,
   cached,
   clean,
   concat,
@@ -41,8 +42,8 @@ gulp.task('transpile', ['jshint'],
     ,cached('transpile')
     ,p('transpile')
     ,sourcemaps.init()
-    // ,to5()
-    ,traceur({modules: 'commonjs', asyncGenerators: true, forOn: true, asyncFunctions: true})
+    ,babel()
+    // ,traceur({modules: 'commonjs', asyncGenerators: true, forOn: true, asyncFunctions: true})
     ,sourcemaps.write('.')
     ,gulp.dest(paths.dist)
   ])
